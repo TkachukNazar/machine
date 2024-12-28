@@ -1,0 +1,23 @@
+a{
+    font-size:90px;
+    color: antiquewhite;
+}
+button{
+    background-image: url('coffee-.jpg');
+    font-size: 40px;
+    color: rgba(248, 199, 38, 0.95);
+}
+button#stop{
+    background-image:none;
+    font-size: 40px;
+    background-color: rgb(255, 30, 0);
+}
+div#block{
+    font-size: 60px;
+    color:beige
+}
+body{
+    background-image: url('main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

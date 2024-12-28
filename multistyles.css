@@ -1,0 +1,17 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('multi.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    color: rgba(248, 199, 38, 0.95);
+}
+div#block{
+    font-size: 60px;
+    color:rgba(221, 206, 206, 0.95);
+}
+button{
+    background-image: none;
+    background-color: rgba(253, 253, 253, 0.888);
+    color:black
+}
