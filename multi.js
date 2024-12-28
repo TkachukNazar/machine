@@ -34,10 +34,10 @@ let multivariate = new Multivariate();
 document.getElementById("soup").addEventListener("click", function () {
   multivariate.run("суп");
 });
-document.getElementById("grechka").addEventListener("click", function () {
+document.getElementById("buckwheat").addEventListener("click", function () {
   multivariate.run("гречка");
 });
-document.getElementById("bakery").addEventListener("click", function () {
+document.getElementById("pastry").addEventListener("click", function () {
   multivariate.run("випічка");
 });
 document.getElementById("plov").addEventListener("click", function () {
