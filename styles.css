@@ -1,5 +1,10 @@
 a{
-    font-size:90px;
+    font-size:130%;
+    color: antiquewhite;
+}
+
+a#main{
+    font-size:500%;
     color: antiquewhite;
 }
 button{
@@ -20,4 +25,5 @@ body{
     background-image: url('main.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }

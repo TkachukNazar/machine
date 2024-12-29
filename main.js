@@ -10,7 +10,6 @@ class Machine {
     clearTimeout(this.timer);
     document.getElementById("block").innerHTML += "<br>" + message;
     this.state = "stopped";
-    // document.getElementById("block").innerHTML += this.state;
   }
   run() {
     this.state = "started";
@@ -21,7 +20,6 @@ class Machine {
       document.getElementById("block").innerHTML += " | ";
     }, 1000);
     this.timer = setTimeout(this.onReady, this.time);
-    // document.getElementById("block").innerHTML += this.state;
   }
   onReady = () => {
     this.clear("Готово");
